@@ -1,8 +1,7 @@
 from Enemy import *
 
-zombie = Enemy()
+zombie = Enemy(type_of_enemy='Small Zombie', health_points=20, attack_damage=100)
 
-zombie.type_of_enemy = 'Zombie'
 
 print(zombie.talk())
 print(zombie.walk_forward())
