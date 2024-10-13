@@ -19,5 +19,6 @@ class Enemy:
     def attack(self):
         print(f'{self.__type_of_enemy} attacks for {self.attack_damage} damage')
     
+    # Getter method to apply encapsulation by returning private variable
     def get_type_of_enemy(self):
         return self.__type_of_enemy
